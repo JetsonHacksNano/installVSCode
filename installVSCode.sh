@@ -1,34 +1,15 @@
-#!/bin/bash
-# Copyright (c) 2016-19 Jetsonhacks 
+#! /bin/bash
+# Copyright 2019 JetsonHacks
 # MIT License
+# Install community builds of Visual Studio Code
+# https://code.headmelted.com/
 
-# Install nodejs
-sudo apt-get install curl
-
-curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-
-sudo apt-get install -y nodejs
-
-#install yarn
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-
-sudo apt-get update && sudo apt-get install yarn
-
-# Install support libraries
-sudo apt-get install libx11-dev libxkbfile-dev libsecret-1-dev  
-
-# Clone and install vscode
-git clone https://github.com/microsoft/vscode
-
-
-exit 1
-
-# need to add extensions gallery here
-
-
-
-cd vscode
-scripts/npm.sh install 
-
+# Install the rep keys and setup
+wget -O script.deb.sh https://packagecloud.io/install/repositories/headmelted/codebuilds/script.deb.sh 
+# sudo chmod +x script.deb.sh
+sudo bash script.deb.sh
+# Run the installation script
+wget -O vscodeInstall.sh https://code.headmelted.com/installers/apt.sh
+# sudo chmod +x vscodeInstall.sh
+sudo bash vscodeInstall.sh
+# . <( wget -O - https://code.headmelted.com/installers/apt.sh )
