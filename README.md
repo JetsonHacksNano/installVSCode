@@ -19,3 +19,8 @@ This will add the repository keys for the installer, and then install Visual Stu
 $ code-oss
 ```
 
+<h3>Notes</h3>
+<ul><li>Initial Release September, 2019</li>
+<li>Tested on Jetson Nano</li>
+<li>L4T 32.2.1 (JetPack 4.2.2)</li>
+ </ul>
