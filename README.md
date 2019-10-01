@@ -20,7 +20,11 @@ $ code-oss
 ```
 
 <h3>Notes</h3>
+
 <ul><li>Initial Release September, 2019</li>
 <li>Tested on Jetson Nano</li>
 <li>L4T 32.2.1 (JetPack 4.2.2)</li>
- </ul>
+<li>Code-OSS Version: 1.32.0 (user setup)</li>
+<li>Commit: aeaef41d51201e555735f5e8d2f38a9d0ddb9026</li>
+<li>Date: 2019-02-20T06:32:49.577Z</li>
+</ul>
