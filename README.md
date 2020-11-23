@@ -1,11 +1,7 @@
 # installVSCode
 
-Shell script to install the community build of Visual Studio Code
+Shell script to install Microsoft Visual Studio Code
 
-https://code.headmelted.com/
-
-The primary focus of code.headmelted.com is to provide open-source edition of Visual Studio Code for less common architectures.
-The builds are automated builds of the open-source edition of Microsoft's Visual Studio Code. The releases are not provided by Microsoft, but rather are an independent community effort. These builds are not affiliated with Microsoft, nor are they associated with JetsonHacks.
 
 To install Visual Studio Code on the Jetson:
 
@@ -13,7 +9,7 @@ To install Visual Studio Code on the Jetson:
 $ ./installVSCode.sh
 ```
 
-This will add the repository keys for the installer, and then install Visual Studio Code. To run Visual Studio Code after installation:
+This will install the latest version Visual Studio Code. There are two ways to run Visual Studio Code. To run Visual Studio Code after installation open it from the application launcher or open a Terminal and exectute:
 
 ```
 $ code-oss
@@ -21,7 +17,14 @@ $ code-oss
 
 <h3>Notes</h3>
 
-<ul><li>Initial Release September, 2019</li>
+<h4>V1 November, 2020</h4>
+<ul><li>Installs official MS release</li>
+<li>Tested on Jetson Nano</li>
+<li>L4T 32.4.4 (JetPack 4.4.1)</li>
+</ul>
+
+<h4>Initial Release, September, 2019</h4>
+<ul>
 <li>Tested on Jetson Nano</li>
 <li>L4T 32.2.1 (JetPack 4.2.2)</li>
 <li>Code-OSS Version: 1.32.0 (user setup)</li>
