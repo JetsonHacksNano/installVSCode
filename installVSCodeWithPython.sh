@@ -12,7 +12,7 @@ wget -O vscode-linux-deb.arm64.deb https://update.code.visualstudio.com/$VERSION
 sudo apt install ./vscode-linux-deb.arm64.deb
 
 # Install useful Python packages
-sudo apt-get install python3-pip
+sudo apt-get install python3-pip -y
 # Install a Python linter
 pip3 install pylint
 # Install a Python formatter
