@@ -8,6 +8,6 @@
 # VERSION=1.51.1
 # latest gets the latest stable version
 VERSION=latest
-wget -O vscode-linux-deb.arm64.deb https://update.code.visualstudio.com/$VERSION/linux-deb-arm64/stable
+wget -N -O vscode-linux-deb.arm64.deb https://update.code.visualstudio.com/$VERSION/linux-deb-arm64/stable
 sudo apt install ./vscode-linux-deb.arm64.deb
 
