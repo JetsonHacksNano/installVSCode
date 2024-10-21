@@ -30,6 +30,13 @@ $ code
 
 <h3>Notes</h3>
 
+<h4>October, 2024</h4>
+<ul><li>Installs version 1.85.2</li>
+<li>1.85.2 is the last version that works on the Jetson Nano running Ubuntu 18.04. Never versions require a newer libc, which Nano does not support</li>
+<li>Tested on Jetson Nano 4GB</li>
+<li>L4T 32.5.7 </li>
+</ul>
+
 <h4>V1 November, 2020</h4>
 <ul><li>Installs official MS release</li>
 <li>Add support for installation with Python extension</li>
